@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dashboard profesional de Grabber Holds - Presentaciones de venta">
+    <meta name="keywords" content="grabber holds, escalada, climbing, dashboard, presentación">
+    <title>Grabber Holds - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/logo.png" alt="Grabber Holds Logo" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Inicio</a></li>
+                <li><a href="#inventario" class="nav-link">Inventario</a></li>
+                <li><a href="#finanzas" class="nav-link">Análisis Financiero</a></li>
+                <li><a href="#productos" class="nav-link">Productos</a></li>
+                <li><a href="#proyeccion" class="nav-link">Proyección Futura</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Grabber Holds</h1>
+            <p>Líderes en presas de escalada profesional</p>
+            <button class="cta-button">Conocer más</button>
+        </div>
+        <div class="hero-image">
+            <img src="assets/hero-image.jpg" alt="Grabber Holds productos">
+        </div>
+    </section>
+
+    <!-- Inventario Section -->
+    <section id="inventario" class="section">
+        <div class="container">
+            <h2>Inventario</h2>
+            <div class="inventory-grid">
+                <div class="inventory-card">
+                    <h3>Activos Totales</h3>
+                    <div class="metric">$500,000</div>
+                    <p>Valor total del inventario</p>
+                </div>
+                <div class="inventory-card">
+                    <h3>Productos en Stock</h3>
+                    <div class="metric">2,500</div>
+                    <p>Unidades disponibles</p>
+                </div>
+                <div class="inventory-card">
+                    <h3>Categorías</h3>
+                    <div class="metric">15</div>
+                    <p>Líneas de productos</p>
+                </div>
+            </div>
+            <button class="btn-modal" data-modal="inventory-modal">Ver detalle completo</button>
+        </div>
+    </section>
+
+    <!-- Análisis Financiero Section -->
+    <section id="finanzas" class="section bg-light">
+        <div class="container">
+            <h2>Análisis Financiero</h2>
+            <div class="financial-grid">
+                <div class="financial-card">
+                    <h3>Ingresos Anuales</h3>
+                    <div class="metric">$1,200,000</div>
+                    <div class="trend positive">+15% vs año anterior</div>
+                </div>
+                <div class="financial-card">
+                    <h3>Margen de Ganancia</h3>
+                    <div class="metric">35%</div>
+                    <div class="trend positive">+3% vs año anterior</div>
+                </div>
+                <div class="financial-card">
+                    <h3>Costos Operativos</h3>
+                    <div class="metric">$780,000</div>
+                    <div class="trend neutral">Estable</div>
+                </div>
+            </div>
+            <button class="btn-modal" data-modal="financial-modal">Ver análisis completo</button>
+        </div>
+    </section>
+
+    <!-- Productos Section -->
+    <section id="productos" class="section">
+        <div class="container">
+            <h2>Catálogo de Productos</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="assets/product1.jpg" alt="Presas básicas">
+                    <h3>Presas Básicas</h3>
+                    <p>Línea estándar para gimnasios</p>
+                    <span class="price">$25 - $45</span>
+                </div>
+                <div class="product-card">
+                    <img src="assets/product2.jpg" alt="Presas profesionales">
+                    <h3>Presas Profesionales</h3>
+                    <p>Para competencias y escalada avanzada</p>
+                    <span class="price">$60 - $120</span>
+                </div>
+                <div class="product-card">
+                    <img src="assets/product3.jpg" alt="Presas personalizadas">
+                    <h3>Presas Personalizadas</h3>
+                    <p>Diseños únicos por encargo</p>
+                    <span class="price">$100 - $300</span>
+                </div>
+            </div>
+            <button class="btn-modal" data-modal="products-modal">Ver catálogo completo</button>
+        </div>
+    </section>
+
+    <!-- Proyección Futura Section -->
+    <section id="proyeccion" class="section bg-light">
+        <div class="container">
+            <h2>Proyección Futura</h2>
+            <div class="projection-content">
+                <div class="projection-text">
+                    <h3>Oportunidades de Crecimiento</h3>
+                    <ul>
+                        <li>Expansión a mercados internacionales</li>
+                        <li>Desarrollo de nueva línea eco-friendly</li>
+                        <li>Tecnología de presas inteligentes</li>
+                        <li>Partnerships con cadenas de gimnasios</li>
+                    </ul>
+                </div>
+                <div class="projection-chart">
+                    <h3>Proyección de Ingresos</h3>
+                    <div class="chart-placeholder">
+                        <p>Gráfico de proyección 2024-2027</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="contact-item">
+                        <strong>Email:</strong> info@grabberholds.com
+                    </div>
+                    <div class="contact-item">
+                        <strong>Teléfono:</strong> +1 (555) 123-4567
+                    </div>
+                    <div class="contact-item">
+                        <strong>Dirección:</strong> 123 Climbing Street, Boulder, CO
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <h3>Enviar Mensaje</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="Grabber Holds Logo" class="logo">
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Inicio</a>
+                    <a href="#inventario">Inventario</a>
+                    <a href="#finanzas">Finanzas</a>
+                    <a href="#productos">Productos</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="LinkedIn">IN</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Grabber Holds. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+        ↑
+    </button>
+
+    <!-- Modals -->
+    <div id="inventory-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Detalle de Inventario</h3>
+            <p>Información detallada del inventario completo...</p>
+        </div>
+    </div>
+
+    <div id="financial-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Análisis Financiero Completo</h3>
+            <p>Análisis financiero detallado...</p>
+        </div>
+    </div>
+
+    <div id="products-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Catálogo Completo</h3>
+            <p>Catálogo completo de productos...</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
