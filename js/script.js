@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Precargar imágenes críticas
     function preloadImages() {
         const criticalImages = [
-            'assets/logo.png',
+            'assets/logo-Grabber-violeta.jpg',
             'assets/hero-image.jpg'
         ];
 

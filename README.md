@@ -22,7 +22,7 @@ dashboard-grabber/
 ├── js/
 │   └── script.js       # Funcionalidades JavaScript
 ├── assets/             # Imágenes y recursos
-│   ├── logo.png
+│   ├── logo-Grabber-violeta.jpg
 │   ├── hero-image.jpg
 │   ├── product1.jpg
 │   ├── product2.jpg
@@ -80,7 +80,7 @@ dashboard-grabber/
 
 1. **Clonar o descargar** los archivos del proyecto
 2. **Agregar imágenes** en la carpeta `assets/`:
-   - `logo.png`: Logo de la empresa
+   - `logo-Grabber-violeta.jpg`: Logo de la empresa
    - `hero-image.jpg`: Imagen principal del hero
    - `product1.jpg`, `product2.jpg`, `product3.jpg`: Imágenes de productos
 3. **Abrir** `index.html` en un navegador web
